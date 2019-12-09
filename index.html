@@ -18,8 +18,14 @@
       <aside class="others open" id="others">
         <div class="panel">
           <h2>Other Conversations</h2>
-          <ul>
+          <ul class="usercard">
             <!-- Conversation/user info goes here -->
+            <li>
+              name
+            </li>
+            <li id="selected">
+              name
+            </li>
           </ul>
         </div>
         <button class="toggle-others" id="btnOthers"><span>chats</span></button>
@@ -29,11 +35,25 @@
         <header>
           <!-- Info about the conversation participant goes here -->
         </header>
-        <section id="messages">
+        <section class="message-box" id="message">
           <!-- Message articles goes here -->
+          <!-- <article class="message from-them">
+              <h2 class="name">Steve Buscemi</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, esse eaque ea quas voluptatem, minus fugiat voluptatibus vero tenetur commodi nobis. Necessitatibus nisi minima dolore cumque illum illo similique quis.</p>
+            </article>
+          <article class="message from-me">
+            <h2 class="name">Rick Astley</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, esse eaque ea quas voluptatem, minus fugiat voluptatibus vero tenetur commodi nobis. Necessitatibus nisi minima dolore cumque illum illo similique quis.</p>
+          </article> -->
         </section>
         <footer>
           <!-- New msg form goes here -->
+          <article>
+            <form action="" id="newMsg" class="newmsg" size="100%">
+              <input type="text" id="message" placeholder="Send Message" >
+              <button class="sendMsg" id="sendMsg">Send</button>
+            </form>
+          </article>
         </footer>
       </main>
     </div>
